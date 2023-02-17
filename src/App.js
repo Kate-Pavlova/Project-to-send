@@ -42,9 +42,7 @@ function App() {
             <li
               onClick={() => setCategoryId(i)}
               className={categoryId === i ? "active" : ""}
-              key={obj.name}
-            >
-              {obj.name}
+              key={obj.name} >{obj.name}
             </li>
           ))}
         </ul>
